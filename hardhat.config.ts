@@ -24,6 +24,10 @@ const config: HardhatUserConfig = {
     ethDevnet: {
       url: 'http://5.75.250.252:8546',
       accounts: [process.env.PRI_KEY_TEST!]
+    },
+    joltEvm: {
+      url: 'http://65.109.48.184:8555',
+      accounts: [process.env.PRI_KEY!]
     }
   },
   etherscan: {
